@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    tools:context=".otp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/coronamap" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:background="@color/colorPrimary"
+        android:padding="20dp"
+        android:text="প্রদত্ত কোডটি প্রবেশ করান"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="35dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/otp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottomborder"
+            android:singleLine="true"
+            android:layout_marginBottom="30dp"
+            android:imeOptions="actionNext"
+            android:textAlignment="center"
+            android:hint="কোডটি লিখুন"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:paddingVertical="11dp"
+            android:paddingStart="5dp" />
+
+
+
+        <Button
+            android:id="@+id/verify"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingVertical="15dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:paddingHorizontal="40dp"
+            android:textColor="@color/white"
+            android:drawableEnd="@drawable/ic_arrow_forward_black_24dp"
+            android:background="@drawable/buttonback"
+            android:text="যাচাই করুন" />
+
+        <TextView
+            android:id="@+id/wrong_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="প্রবেশ করা ওটিপি অবৈধ, আবার চেষ্টা করুন।"
+            android:textAlignment="center"
+            android:textColor="#FF776B"
+            android:textSize="15sp" />
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="29dp" />
+    </LinearLayout>
+
+</LinearLayout>

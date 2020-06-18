@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".ownerLogin">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="30dp"
+        app:srcCompat="@drawable/coronamap" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="35dp"
+        android:gravity="bottom|center"
+        android:paddingBottom="50dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/warAning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:padding="10dp"
+            android:text="লগ ইন বা রেজিস্ট্রেশন করতে দয়া করে একটি বৈধ নম্বর লিখুন"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/code"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+
+                android:imeOptions="actionNext"
+                android:paddingVertical="11dp"
+                android:paddingStart="5dp"
+                android:singleLine="true"
+                android:text="+880"
+                android:inputType="number"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/number"
+                android:inputType="number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottomborder"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:imeOptions="actionNext"
+                android:hint="1XXXXXXXXX"
+                android:paddingVertical="11dp"
+                android:paddingStart="5dp" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/get_started"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonback"
+            android:drawableEnd="@drawable/ic_arrow_forward_black_24dp"
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="29dp"
+            android:text="এগিয়ে যান"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/warning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="দয়া করে একটি বৈধ নম্বর লিখুন"
+            android:textAlignment="center"
+            android:textColor="#C62416"
+            android:textSize="13sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="29dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

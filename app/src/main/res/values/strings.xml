@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">COROMAP</string>
+    <string name="description">অন্যদের জানতে দিন এবং এই পৃথিবীটি সবার জন্য নিরাপদ করুন। একটি ক্লিক হাজার হাজার লোককে নিরাপদে রাখতে পারে। সুতরাং আসুন এগিয়ে আসা যাক এবং একসাথে এই বিশ্বকে একটি নিরাপদ স্থানে পরিবর্তন করতে দিন</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

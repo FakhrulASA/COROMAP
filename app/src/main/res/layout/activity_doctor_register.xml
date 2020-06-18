@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAD5D5"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    tools:context=".doctorRegister">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ডাক্তারের তথ্য"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/buttonColor"
+            />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#253A4B"
+            android:elevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <EditText
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:hint="নাম"
+                        android:textColorHint="#9B9797"
+                        android:textColor="#FFFF"
+                        android:textSize="16sp"
+                        android:drawableLeft="@drawable/icongreen"
+                        android:drawablePadding="5dp"
+                        android:background="@drawable/edit_text_bg"
+                        android:padding="10dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+                    <EditText
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:hint="লাইসেন্স আইডি"
+                        android:textColorHint="#9B9797"
+                        android:textColor="#9B9797"
+                        android:textSize="16sp"
+                        android:drawableLeft="@drawable/icongreen"
+                        android:drawablePadding="5dp"
+                        android:background="@drawable/edit_text_bg"
+                        android:padding="10dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+                    <EditText
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:hint="হাসপাতাল / বিভাগের নাম"
+                        android:textColorHint="#9B9797"
+                        android:textColor="#9B9797"
+                        android:textSize="16sp"
+                        android:drawableLeft="@drawable/icongreen"
+                        android:drawablePadding="5dp"
+                        android:background="@drawable/edit_text_bg"
+                        android:padding="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:inputType="number"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="রোগীর তথ্য"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/buttonColor"
+            />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#253A4B"
+            android:elevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <EditText
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:hint="নাম"
+                        android:textColorHint="#9B9797"
+                        android:textColor="#FFFF"
+                        android:textSize="16sp"
+                        android:drawableLeft="@drawable/icongreen"
+                        android:drawablePadding="5dp"
+                        android:background="@drawable/edit_text_bg"
+                        android:padding="10dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+                    <EditText
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:hint="ঠিকানা"
+                        android:textColorHint="#9B9797"
+                        android:textColor="#9B9797"
+                        android:textSize="16sp"
+                        android:drawableLeft="@drawable/icongreen"
+                        android:drawablePadding="5dp"
+                        android:background="@drawable/edit_text_bg"
+                        android:padding="10dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+                    <EditText
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:hint="বয়স"
+                        android:textColorHint="#9B9797"
+                        android:textColor="#9B9797"
+                        android:textSize="16sp"
+                        android:drawableLeft="@drawable/icongreen"
+                        android:drawablePadding="5dp"
+                        android:background="@drawable/edit_text_bg"
+                        android:padding="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:inputType="number"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="লিঙ্গ"
+                        android:textColor="#9B9797"
+                        android:textSize="16sp"
+                        android:drawableLeft="@drawable/icongreen"
+                        android:drawablePadding="5dp"
+                        android:layout_gravity="left"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        >
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="পুরুষ"
+                            android:textColor="#FFFF"
+                            android:textSize="18dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="25dp"
+                            />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="মহিলা"
+                            android:textColor="#FFFF"
+                            android:textSize="18dp"
+                            android:layout_marginRight="10dp"
+                            />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="
+অন্যান্য"
+                            android:textColor="#FFFF"
+                            android:textSize="18dp"
+                            />
+
+                    </RadioGroup>
+
+                    <TextView
+                        android:id="@+id/testDate"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:text="করোনা পরীক্ষা ফলাফলের তারিখ"
+                        android:textColorHint="#9B9797"
+                        android:textColor="#9B9797"
+                        android:textSize="16sp"
+                        android:drawableLeft="@drawable/icongreen"
+                        android:drawablePadding="5dp"
+                        android:background="@drawable/edit_text_bg"
+                        android:padding="10dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="প্রবাস হতে আগত?"
+                        android:textColor="#9B9797"
+                        android:textSize="16sp"
+                        android:drawableLeft="@drawable/icongreen"
+                        android:drawablePadding="5dp"
+                        android:layout_gravity="left"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        >
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="হ্যাঁ"
+                            android:textColor="#FFFF"
+                            android:textSize="18dp"
+                            android:layout_marginRight="10dp"
+                            />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="না"
+                            android:textColor="#FFFF"
+                            android:textSize="18dp"
+                            android:layout_marginRight="10dp"
+                            />
+
+
+                    </RadioGroup>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="সহায়তা প্রয়োজন?"
+                        android:textColor="#9B9797"
+                        android:textSize="16sp"
+                        android:drawableLeft="@drawable/icongreen"
+                        android:drawablePadding="5dp"
+                        android:layout_gravity="left"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        >
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="হ্যাঁ"
+                            android:textColor="#FFFF"
+                            android:textSize="18dp"
+                            android:layout_marginRight="10dp"
+                            />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="না"
+                            android:textColor="#FFFF"
+                            android:textSize="18dp"
+                            android:layout_marginRight="10dp"
+                            />
+
+
+                    </RadioGroup>
+
+
+                    <EditText
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/edit_text_bg"
+                        android:drawableLeft="@drawable/icongreen"
+                        android:drawablePadding="5dp"
+                        android:padding="10dp"
+                        android:hint="Attachment"
+                        android:textColorHint="#9B9797"
+                        android:textColor="#9B9797"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="জমা দিন"
+            android:textColor="#FFFF"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:background="@color/buttonColor"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</ScrollView>

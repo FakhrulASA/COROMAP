@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "52022251930",
+    "firebase_url": "https://coromap-cdf42.firebaseio.com",
+    "project_id": "coromap-cdf42",
+    "storage_bucket": "coromap-cdf42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52022251930:android:c0633083bcdcedde322a23",
+        "android_client_info": {
+          "package_name": "com.example.coromap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52022251930-0shhpu3gh06c0shn39lhuehof224u41a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA__toJJRgsGmnrz_r8mczWyTpH8LfTBkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52022251930-0shhpu3gh06c0shn39lhuehof224u41a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
